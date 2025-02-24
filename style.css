@@ -1,10 +1,15 @@
 *{
     text-align: center;
+    box-sizing:border-box;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
 }
 header{
-    font-size:1.2rem;
-    font-weight: 700;
+    font-size:24px;
     width: 20%;
+    color: #f9faf8;
 }
 
 ul{
@@ -20,16 +25,22 @@ ul{
 }
 
 .hero{
+    font-size: 18px;
+    color: #efe7eb;
     margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
     gap: 8em;
+}
+.hero p{
+    margin-bottom: 1em;
 }
 .image img{
     border-radius: 2em;
 }
 
 .container{
-    margin-left: 80px;
+    margin-left: 11.5%;
     display: flex;
     gap: 2em;
     flex-wrap: wrap;
@@ -39,14 +50,14 @@ ul{
     width: 250px;
     height: 150px;
     border-radius: 1em;
-    background: rgba(7, 213, 76, 0.715);
+    border: #3887f6 2px solid;
     padding: 0.7em;
 }
 
 a{
     text-decoration: none;
-    color: black;
-    background:rgba(7,213,76, 0.715);
+    color: #efe7eb;
+    border:#3887f6 2px solid;
     padding: 0.5em;
     border-radius: 5px;
 }
@@ -57,9 +68,44 @@ footer{
     text-align: center;
 }
 .two h2{
+    margin-bottom: 1em;
     font-size: 2rem;
 }
 h1{
-    font-size: 2.2rem;
-    font-weight: 800;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.one {
+    background-color: #1f2937;
+}
+.four{
+    margin-top: 1em;
+    background-color: #3887f6;
+    border-radius: 1em;
+    padding: 1em;
+}
+.four a, .hero a{
+    margin-bottom: 40px;
+}
+
+.feature h3{
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+}
+.two, .three , .four{
+    margin-bottom: 2em;
+}
+.four p{
+    margin-bottom: 1em;
+}
+.three{
+    padding: 1em;
+    background-color: #e5eceb;
+}
+
+footer{
+    color:#e5eceb;
+    padding: 1em;
+    background-color: #1f2937;
 }
